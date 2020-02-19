@@ -2,3 +2,31 @@
     margin-top: 100px;
     
 }
+
+.scroll {
+    height: 300px;
+    /* overflow-x: hidden !important; */
+    /* overflow-x: auto; */
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE and Edge */
+  .scroll {
+    -ms-overflow-style: none;
+  }
+
+  .modal-content {
+      padding: 0px !important;
+  }
+
+  @media only screen and (max-height: 700px) {
+    .modal {
+        max-height: 60% !important;
+    }
+  }
